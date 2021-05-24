@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/kalpa-coconuts/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/kalpa-coconuts/static/js/main.2e93e15a.chunk.js",
-    "main.js.map": "/kalpa-coconuts/static/js/main.2e93e15a.chunk.js.map",
+    "main.js": "/kalpa-coconuts/static/js/main.7deee89b.chunk.js",
+    "main.js.map": "/kalpa-coconuts/static/js/main.7deee89b.chunk.js.map",
     "runtime-main.js": "/kalpa-coconuts/static/js/runtime-main.c194c17f.js",
     "runtime-main.js.map": "/kalpa-coconuts/static/js/runtime-main.c194c17f.js.map",
-    "static/js/2.58a4b289.chunk.js": "/kalpa-coconuts/static/js/2.58a4b289.chunk.js",
-    "static/js/2.58a4b289.chunk.js.map": "/kalpa-coconuts/static/js/2.58a4b289.chunk.js.map",
+    "static/js/2.6ac4c660.chunk.js": "/kalpa-coconuts/static/js/2.6ac4c660.chunk.js",
+    "static/js/2.6ac4c660.chunk.js.map": "/kalpa-coconuts/static/js/2.6ac4c660.chunk.js.map",
     "static/js/3.e987c0fb.chunk.js": "/kalpa-coconuts/static/js/3.e987c0fb.chunk.js",
     "static/js/3.e987c0fb.chunk.js.map": "/kalpa-coconuts/static/js/3.e987c0fb.chunk.js.map",
     "index.html": "/kalpa-coconuts/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/kalpa-coconuts/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.58a4b289.chunk.js.LICENSE.txt": "/kalpa-coconuts/static/js/2.58a4b289.chunk.js.LICENSE.txt"
+    "static/js/2.6ac4c660.chunk.js.LICENSE.txt": "/kalpa-coconuts/static/js/2.6ac4c660.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/kalpa-coconuts/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c194c17f.js",
-    "static/js/2.58a4b289.chunk.js",
+    "static/js/2.6ac4c660.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.2e93e15a.chunk.js"
+    "static/js/main.7deee89b.chunk.js"
   ]
 }
