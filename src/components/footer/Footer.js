@@ -2,6 +2,8 @@ import React from 'react'
 import { Col, Container,Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Exporter from '../../images/exporter.png'
+import Fassi from '../../images/fssai.png'
 
 const Footer = () => {
     return (
@@ -23,6 +25,12 @@ const Footer = () => {
                         <a href="https://www.facebook.com/kalpacoconuts/" className="hoverred darkGrey" target="blank"><FontAwesomeIcon id="verified" icon={faFacebook} size={'2x'} className="m-2"/></a>
                         <a href="https://www.instagram.com/kalpacoconuts/" className="hoverred darkGrey" target="blank"><FontAwesomeIcon id="verified" icon={faInstagram} size={'2x'} className="m-2"/></a>
                         <a href="https://www.facebook.com/kalpacoconuts/" className="hoverred darkGrey" target="blank"><FontAwesomeIcon id="verified" icon={faLinkedinIn} size={'2x'} className="m-2" /></a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12} className="text-center mb-2">
+                        <img src={Exporter} alt="exporterIndia" className="p-2 "/>
+                        <img src={Fassi} alt="fssai" className="p-2"/>
                     </Col>
                 </Row>
                 <Row className="backGrey p-2">

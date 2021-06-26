@@ -3,7 +3,7 @@ import { Alert, Button, Col, Container, Form, Row,Spinner } from 'react-bootstra
 import {faEnvelope, faPhoneAlt, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import emailjs from 'emailjs-com';
-import ErrorOrSuccessModal from '../shared/ErrorOrSuccessModal';
+import ErrorOrSuccessModal from '../..//shared/ErrorOrSuccessModal';
 
 const ContactUs = React.forwardRef((props,ref) => {
 
@@ -43,13 +43,6 @@ const ContactUs = React.forwardRef((props,ref) => {
                     message:'Enter your Phone Number'
                 })
                 break;
-
-            // case phoneNumber.length!==10:
-            //     setErrorModal({
-            //         toShow:true,
-            //         message:'Invalid Phone Number'
-            //     })
-            //     break;
 
             case !country:
                 setErrorModal({
@@ -179,13 +172,16 @@ const ContactUs = React.forwardRef((props,ref) => {
                                     <div className="contactUsSpan d-flex align-content-center justify-content-center">
                                         <FontAwesomeIcon id="verified" icon={faPhoneAlt} size={'1x'} className=" contactIcons"/>
                                     </div>
-                                    <div className="d-flex justify-content-center align-items-center m-2 openSansSemiBold"><p>+91 9535449954</p></div>
+                                    <div className="d-flex justify-content-center align-items-center m-2 openSansSemiBold"><p>+91 9449151151</p></div>
                                 </Row>
                                 <Row className="my-2" >
                                     <div className="contactUsSpan d-flex align-content-center justify-content-center">
                                         <FontAwesomeIcon id="verified" icon={faEnvelope} size={'1x'} className=" contactIcons"/>
                                     </div>
                                     <div className="d-flex justify-content-center align-items-center m-2 openSansSemiBold"><p>kalpacoconuts@gmail.com</p></div>
+                                </Row>
+                                <Row>
+                                    <a href="https://www.google.com/maps/place/13%C2%B018'30.6%22N+76%C2%B039'20.5%22E/@13.3084879,76.6534998,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d13.3084879!4d76.6556885" target="_blank" rel="noreferrer"  variant="outline-dark"><Button variant="outline-dark">Get Directions</Button></a>
                                 </Row>
                                 {/* <Row className="my-2" >
                                     <div className="contactUsSpan d-flex align-content-center justify-content-center">

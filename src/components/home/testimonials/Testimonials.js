@@ -21,15 +21,15 @@ const Testimonials = () => {
                             <Carousel.Item>
                                 <div className="mt-1">   
                                     <blockquote>
-                                        <p className="whiteColor font-italic" >Lrenjdf kmkfi nfejn jnjfvnjfvn k niernoeor mcd</p>
-                                    <footer className="whiteColor">-W.H. Auden</footer>
+                                        <p className="whiteColor font-italic" >Nice flavour and well Hygien .great quality</p>
+                                    <footer className="whiteColor">- Pratap S</footer>
                                     </blockquote>
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="mt-1">   
                                     <blockquote>
-                                        <p className="whiteColor font-italic coroselp openSansSemiBold" >Some quick example text to build on the card title and make up</p>
+                                        <p className="whiteColor font-italic coroselp openSansSemiBold" >Good product value for money nice flavour ... Thank you</p>
                                         <footer className="whiteColor openSansRegular">-Slovakian Proverb</footer>
                                     </blockquote>
                                 </div>
@@ -37,7 +37,7 @@ const Testimonials = () => {
                             <Carousel.Item>
                                 <div className="mt-1">   
                                     <blockquote>
-                                        <p className="whiteColor font-italic coroselp openSansSemiBold" >Some quick example text to build on the card title and make up</p>
+                                        <p className="whiteColor font-italic coroselp openSansSemiBold" >Contacted them online ....great response ...timely delivery.</p>
                                     <footer className="whiteColor openSansRegular">-Slovakian Proverb</footer>
                                     </blockquote>
                                 </div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                             <Carousel.Item>
                                 <div className="mt-1">   
                                     <blockquote>
-                                        <p className="whiteColor font-italic openSansSemiBold" >Some quick example text to build on the card title and make up</p>
+                                        <p className="whiteColor font-italic openSansSemiBold" >That was affordable .... thank you kalpa coconuts</p>
                                     <footer className="whiteColor openSansRegular">-Lao Tzu</footer>
                                     </blockquote>
                                 </div>

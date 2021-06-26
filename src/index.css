@@ -31,6 +31,10 @@ code {
 }
 .logoFont {
   font-family:'Miltonian-Regular';
+  text-decoration: none !important;
+}
+.tdNone:hover {
+  text-decoration: none !important;
 }
 .bgBlack {
   background-color: black;
@@ -169,3 +173,4 @@ color: #4B4C4C;
 .content{
   line-height: 1.8em;
 }
+.carousel .carousel-indicators li {background-color: #845326;}
