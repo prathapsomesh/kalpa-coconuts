@@ -1,13 +1,176 @@
+@font-face {
+  font-family: 'Miltonian-Regular';
+  src: local('Miltonian-Regular'), url(./fonts/Miltonian-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: local('OpenSans-Bold'), url(./fonts/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: local('OpenSans-Light'), url(./fonts/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: local('OpenSans-Regular'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: local('OpenSans-SemiBold'), url(./fonts/OpenSans-SemiBold.ttf) format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'OpenSans-Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'OpenSans-Regular', Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.logoFont {
+  font-family:'Miltonian-Regular';
+  text-decoration: none !important;
+}
+.tdNone:hover {
+  text-decoration: none !important;
+}
+.bgBlack {
+  background-color: black;
+}
+.darkGrey {
+color: #4B4C4C;
+}
+.brownColor {
+  color: #603913;
+}
+.brownBackgroundColor {
+  background-color: #845326 !important;
+}
+.backGrey {
+  background-color: #f3f3f3;
+}
+.whiteBackground{
+  background-color: #fff;
+}
+.opacity50 {
+  opacity: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .topText {
+    font-size: 13px;
+  } 
+  /* .contactUsForm {
+    margin : 25px 25px 25px 25px !important;
+    padding: 25px !important;
+    border-radius: 3px !important;
+    background-color: #f3f3f3;
+  } */
+}
+.bannerImageWidth{
+  width: 60%;
+  height: auto;
+}
+
+ .black{
+  color: #000 !important;
+  font-weight:bold !important;
+}
+.hoverred:hover{
+  color:#603913 !important;
+  transition: 0.5s !important;
+  text-decoration:none !important;
+}
+.carousel .carousel-item{
+  height: '50%';
+}
+
+.openSansRegular {
+  font-family: 'OpenSans-Regular';
+}
+.openSansLight {
+  font-family: 'OpenSans-Light';
+}
+.openSansBold {
+  font-family: 'OpenSans-Bold';
+}
+.openSansSemiBold {
+  font-family: 'OpenSans-SemiBold';
+}
+.rotate{
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #603913 !important;
+}
+.btnIcons :hover {
+  color: #fff;
+}
+.whiteColor{
+  color: #fff;
+}
+.brownBorder{
+  border-top: 2px solid #603913 ;
+  width: 80px;
+}
+.whatsApp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* .formRight {
+  margin : 20px 20px 20px 0px !important;
+  padding: 20px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+} */
+.contactIcons {
+  color: #845326;
+  align-self: center;
+}
+.contactUsSpan {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border:8px outset #999;
+  box-shadow:  -1px 1px #fff,
+  -2px 2px #fff,
+  -3px 3px #fff,
+  -4px 4px #fff,
+  -5px 5px #fff;
+    -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+.contactRow{
+  border: 2px solid #603913;
+  padding: 15px;
+  border-radius: 3px;
+}
+.whatsAppReactBtn {
+  border: none;
+  background: none;
+}
+
+.backgroundImage{
+  background:  url('./images/background.svg');
+}
+
+.content{
+  line-height: 1.8em;
+}
+.carousel .carousel-indicators li {background-color: #845326;}
