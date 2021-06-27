@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://kalpacoconuts.com/static/css/main.88fe78f2.chunk.css",
-    "main.js": "https://kalpacoconuts.com/static/js/main.d3bb8b17.chunk.js",
-    "main.js.map": "https://kalpacoconuts.com/static/js/main.d3bb8b17.chunk.js.map",
+    "main.js": "https://kalpacoconuts.com/static/js/main.341a2f8d.chunk.js",
+    "main.js.map": "https://kalpacoconuts.com/static/js/main.341a2f8d.chunk.js.map",
     "runtime-main.js": "https://kalpacoconuts.com/static/js/runtime-main.711be4d6.js",
     "runtime-main.js.map": "https://kalpacoconuts.com/static/js/runtime-main.711be4d6.js.map",
     "static/css/2.4c97ca4f.chunk.css": "https://kalpacoconuts.com/static/css/2.4c97ca4f.chunk.css",
@@ -42,6 +42,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c525afcb.chunk.js",
     "static/css/main.88fe78f2.chunk.css",
-    "static/js/main.d3bb8b17.chunk.js"
+    "static/js/main.341a2f8d.chunk.js"
   ]
 }
